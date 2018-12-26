@@ -91,3 +91,24 @@ Promise.race([cleanTheRoom(),removeTheGarbage(),winIceCream()]).then(function(){
 });
 ```
 
+## JS DATE
+Current Date
+```
+var date = new Date();
+```
+
+Create your date
+```
+var date = new Date(year,month,date[,hour,minute,second,millisecond ]) 
+```
+
+Get Year, Month etc.
+
+```
+date.getMonth(); (0-11)
+date.getFullYear();(YYYY)
+date.getDay();(0-6) //0 is sunday
+date.getHours();(0-23)
+date.getTime();(0-23) // returns timestamp > number of milliseconds since jan 1st 1970
+```
+
